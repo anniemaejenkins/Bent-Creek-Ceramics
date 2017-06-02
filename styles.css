@@ -274,3 +274,57 @@ td{
   border-spacing: 0px;
   padding: 18px;
 }
+
+/*******newletter css**********/
+
+#newsletter{
+  margin: 0;
+  position: absolute;
+  height: 615px;
+  width: 1280px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+#background{
+  background-image: url("../images/optimized/background-2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.newsnav{
+  margin-left: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+#label{
+  background-color: #FFF;
+  width: 610px;
+  height: 310px;
+  text-align: center;
+}
+
+.container{
+  position: relative;
+  left: 200px;
+bottom: 600px;
+}
+
+footer{
+  margin-top: -550px;
+  display: none;
+}
+
+.button{
+  width: 127px;
+  height: 55px;
+}
+
+#topwords{
+  font-size: 22px;
+}
