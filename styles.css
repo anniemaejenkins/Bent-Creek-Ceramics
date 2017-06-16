@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
 }
+
 /***********home page css**********/
 #home{
   background-color: #F2F1E8;
@@ -28,6 +29,48 @@ nav{
   flex-flow: row wrap;
 }
 
+.ep {
+  background-color: rgb(43, 47, 38);
+  color: rgb(242, 241, 232);
+  padding: 10px;
+}
+
+.set {
+  background-color: rgb(43, 47, 38);
+  color: rgb(242, 241, 232);
+  padding: 10px;
+}
+
+.text {
+  background-color: rgb(43, 47, 38);
+  color: rgb(242, 241, 232);
+  padding: 10px;
+}
+
+.t {
+  background-color: rgb(43, 47, 38);
+  color: rgb(242, 241, 232);
+  padding: 10px;
+}
+
+.jandc {
+  background-color: rgb(43, 47, 38);
+  color: rgb(242, 241, 232);
+  padding: 10px;
+}
+
+.wasb {
+  background-color: rgb(43, 47, 38);
+  color: rgb(242, 241, 232);
+  padding: 10px;
+}
+
+.sunshine {
+  background-color: rgb(43, 47, 38);
+  color: rgb(242, 241, 232);
+  padding: 10px;
+}
+
 .endless{
   background-image: url("images/optimized/product-1.jpg");
   width: 57.165231%;
@@ -36,6 +79,8 @@ nav{
   margin-right: 16px;
   margin-bottom: 16px;
   margin-left: 20px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .sets{
@@ -44,6 +89,8 @@ nav{
   height: 370px;
   background-size: cover;
   margin-right: 16px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .textures{
@@ -51,6 +98,8 @@ nav{
   width: 18.402506%;
   height: 370px;
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
 }
 
 .tea{
@@ -59,6 +108,8 @@ nav{
   height: 240px;
   background-size: cover;
   margin-left: 20px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .jars{
@@ -68,6 +119,8 @@ nav{
   background-size: cover;
   margin-left: 16px;
   margin-right: 16px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .wasabi{
@@ -76,6 +129,8 @@ nav{
   height: 240px;
   background-size: cover;
   margin-right: 16px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .sip{
@@ -83,6 +138,8 @@ nav{
   width: 18.245889%;
   height: 240px;
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
 }
 
 ul{
@@ -123,17 +180,20 @@ nav a:hover{
   color: #CD5D67;
 }
 
-h1{
+.bentCreek{
   margin-top: 135px;
   font-size: 50px;
   font-family: 'Merriweather', serif;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
-h2{
+.art{
   font-size: 30px;
   font-family: 'Merriweather', serif;
   font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 footer{
@@ -227,10 +287,14 @@ blockquote{
 
 .lastpara{
   margin-left: 210px;
+  display: flex;
+  line-height: 28px;
 }
 
 .fac{
-  font-weight: 300;
+  font-weight: normal;
+  font-size: 25px;
+  margin-left: 210px;
 }
 
 .month{
@@ -261,6 +325,7 @@ th{
 aside{
   display: flex;
   flex-flow: column;
+  margin: 0 60px 45px 20px;
 }
 
 #pots{
@@ -302,29 +367,47 @@ td{
   text-align: center;
 }
 
-#label{
-  background-color: #FFF;
-  width: 610px;
-  height: 310px;
-  text-align: center;
-}
-
 .container{
   position: relative;
-  left: 200px;
-bottom: 600px;
-}
-
-footer{
-  margin-top: -550px;
-  display: none;
+  left: 30%;
+  bottom: 100%;
 }
 
 .button{
   width: 127px;
   height: 55px;
+  margin-left: 36%;
+  background-color: #968772;
+  color: #F2F1E8;
+  border: none;
+  font-size: 16px;
 }
 
-#topwords{
+.signup{
+  font-size: 26px;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.specials{
+  font-weight: normal;
   font-size: 22px;
+  text-align: center;
+}
+
+.form{
+  background-color: #FFF;
+  width: 610px;
+  height: 400px;
+  text-align: left;
+  padding: 32px;
+}
+
+input{
+  border: none;
+  border-bottom: 2px solid #968772;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 20px;
 }
