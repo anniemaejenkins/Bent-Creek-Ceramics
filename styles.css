@@ -27,6 +27,7 @@ nav{
 .images{
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 25px;
 }
 
 .ep {
@@ -199,7 +200,6 @@ nav a:hover{
 footer{
   background-color: rgb(43, 47, 38);
   height: 100px;
-  margin-top: 25px;
   color: rgb(242, 241, 232);
   padding-top: 36px;
 }
@@ -214,16 +214,6 @@ footer p{
 #about{
   background-color: #F2F1E8;
   margin: 0;
-  width: 100%;
-}
-
-.aboutnav{
-  margin-left: 0;
-  position: fixed;
-  width: 100%;
-}
-
-.aboutheader{
   width: 100%;
 }
 
@@ -303,6 +293,7 @@ blockquote{
 
 .table{
   margin-left: 210px;
+  margin-bottom: 25px;
 }
 
 table{
@@ -344,31 +335,25 @@ td{
 
 #newsletter{
   margin: 0;
-  position: absolute;
-  height: 615px;
-  width: 1280px;
-  overflow-x:hidden;
-  overflow-y:hidden;
 }
 
 #background{
-  background-image: url("../images/optimized/background-2.jpg");
-  background-size: contain;
+  background-image: url("./images/optimized/background-2.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .newsnav{
   margin-left: 0;
-  position: fixed;
   width: 100%;
   text-align: center;
 }
 
 .container{
-  position: relative;
   left: 30%;
   bottom: 100%;
 }
